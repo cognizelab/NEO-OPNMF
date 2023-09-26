@@ -14,7 +14,7 @@ All operations are based on Matlab (2021a or higher), and no additional dependen
 
 ## 2.Two-dimensional space of personality meta-traits
 
-![image.tiff](https://drive.google.com/file/d/18iKbjqsna1HoIf3gESoJeya0VcTHsg0Q/view?usp=drive_link)
+![image.tiff](https://postimg.cc/WttQQfbX)
 
 # Contents
 

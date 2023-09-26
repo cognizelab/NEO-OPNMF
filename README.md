@@ -10,11 +10,11 @@ All operations are based on Matlab (2021a or higher), and no additional dependen
 
 ## **1.Personality trait decomposition and evaluation**
 
-![image.tiff](https://drive.google.com/file/d/1Svn5Uv_-aShjT2ddP5UtClDHAkcrENPy/view?usp=drive_link)
+[![A.png](https://i.postimg.cc/gk6LWcXq/A.png)](https://postimg.cc/svsgPrJv)
 
 ## 2.Two-dimensional space of personality meta-traits
 
-![image.tiff](https://postimg.cc/WttQQfbX)
+[![B.png](https://i.postimg.cc/wxkgRCK8/B.png)](https://postimg.cc/WttQQfbX)
 
 # Contents
 

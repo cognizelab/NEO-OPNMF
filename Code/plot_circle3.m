@@ -13,7 +13,7 @@ function plot_circle3(thetaAngle, value, mark, varargin)
 %                   >>> 'markColor', color corresponding to 'mark'  
 %% Example
 % thetaAngle = [0:90];
-% value = rand(1,91);
+% value = [1:91];
 % mark = zeros(1,91);
 % mark(1:10) = 1;
 % plot_circle3(thetaAngle, value, mark, varargin)

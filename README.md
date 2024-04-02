@@ -1,6 +1,6 @@
 # Introduction
 
-Codes and models for the "Data-driven decomposition and behavioral profiling of higher-order personality meta-traits".
+Codes and models for the "Data-driven decomposition and neurocognitive profiling of higher-order personality meta-traits".
 
 The core goal of this code library is to perform factor decomposition of behavioral data through [Orthogonal Projection Non-negative Matrix Factorization (OPNMF)](https://github.com/asotiras/brainparts), and to appropriately visualize the results.
 

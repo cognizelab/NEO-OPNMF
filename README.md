@@ -41,6 +41,10 @@ Integrated script for carrying out decomposition, evaluation and visualization t
 *   plot\_alluvial\_factors.m
 
     The core code for showing how the item's affiliation changes between different models.
+	
+*   plot\_circle3.m
+
+    The core code for generating the circular graph.
 
 *   combine\_fmatrix.m
 
@@ -113,7 +117,7 @@ Pre-trained personality models based on the main datasets.
 
 # Reference
 
-> Kaixiang, Z., Chen, J., Cheng, W., Jiang, Q., Jianfen, F., Eickhoff, S. & Vatansever, D. Data-driven decomposition and behavioral profiling of higher-order personality meta-traits
+> Kaixiang, Z., Chen, J., Jinfeng H., Cheng, W., Jiang, Q., Jianfen, F., Eickhoff, S. & Vatansever, D. Data-driven decomposition and neurocognitive profiling of higher-order personality meta-traits
 >
 > Chen, J., Patil, K. R., Weis, S., Sim, K., Nickl-Jockschat, T., Zhou, J., ... & Visser, E. (2020). Neurobiological divergence of the positive and negative schizophrenia subtypes identified on a new factor structure of psychopathology using non-negative factorization: an international machine learning study. *Biological psychiatry*, *87*(3), 282-293.
 

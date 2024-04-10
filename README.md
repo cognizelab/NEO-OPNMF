@@ -32,19 +32,19 @@ Integrated script for carrying out decomposition, evaluation and visualization t
 
 *   plot\_biplot.m
 
-    The core code for displaying the projection of data points into a two-dimensional space.
+    Code for displaying the projection of data points into a two-dimensional space.
 
 *   plot\_permutation.m
 
-    The core code for evaluating (and displaying) the model's fit bias across different groups (such as different gender groups).
+    Code for evaluating (and displaying) the model's fit bias across different groups (such as gender groups).
 
 *   plot\_alluvial\_factors.m
 
-    The core code for showing how the item's affiliation changes between different models.
+    Code for demonstrating how the item's affiliation changes between different models.
 	
 *   plot\_circle3.m
 
-    The core code for generating the circular graph.
+    Code for generating the circular graph.
 
 *   combine\_fmatrix.m
 

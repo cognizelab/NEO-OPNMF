@@ -1,6 +1,6 @@
 # Introduction
 
-Codes and models for the "Mapping the meta-trait landscape of personality".
+Codes and models for the "Charting the meta-trait landscape of personality".
 
 The core goal of this code library is to perform factor decomposition of behavioral data through [Orthogonal Projection Non-negative Matrix Factorization (OPNMF)](https://github.com/asotiras/brainparts), and to appropriately visualize the results.
 
@@ -117,7 +117,7 @@ Pre-trained personality models based on the main datasets.
 
 # Reference
 
-> Kaixiang, Z., Chen, J., Jinfeng H., Cheng, W., Jiang, Q., Jianfen, F., Eickhoff, S. & Vatansever, D. Mapping the meta-trait landscape of personality
+> Kaixiang, Z., Chen, J., Jinfeng H., Cheng, W., Jiang, Q., Jianfen, F., Eickhoff, S. & Vatansever, D. Charting the meta-trait landscape of personality
 >
 > Chen, J., Patil, K. R., Weis, S., Sim, K., Nickl-Jockschat, T., Zhou, J., ... & Visser, E. (2020). Neurobiological divergence of the positive and negative schizophrenia subtypes identified on a new factor structure of psychopathology using non-negative factorization: an international machine learning study. *Biological psychiatry*, *87*(3), 282-293.
 

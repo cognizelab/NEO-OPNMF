@@ -1,6 +1,6 @@
 # Introduction
 
-Codes and models for the "Charting the meta-trait landscape of personality".
+Codes and models for "Charting the meta-trait landscape of personality".
 
 The core goal of this code library is to perform factor decomposition of behavioral data through [Orthogonal Projection Non-negative Matrix Factorization (OPNMF)](https://github.com/asotiras/brainparts), and to appropriately visualize the results.
 

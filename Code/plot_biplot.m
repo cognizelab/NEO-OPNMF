@@ -353,10 +353,13 @@ if (nargout>0), h = hLine; end
 end
 
 %%
-function density_plot(scores,f,colors)
+function density_plot(scores,idx,S,igroup)
+
+disp(['Density mapping for group ',num2str(igroup)]);
 
 K = -1:0.02:1;
 
+f = find(idx==1);
 data = scores(f,:);
 m = zeros(numel(K) - 1,numel(K) - 1);
 
@@ -381,7 +384,50 @@ for i = 1:numel(a)
     value(i,1) = m(a(i),b(i));
 end
 
-x = color2value(colors,value,10);
+x = color2value(S.dot_degree_color{igroup},value,10);
 scatter(k(b),k(100-a),100,x,'o','filled');  
 
 end
+
+%%
+function [value_color,n] = color2value(color,value,n)
+
+% color: RGB N * 3 OR 1 * 3
+% value: value to be mapped
+% n: number of sections
+
+if size(color,1) > 1
+    n = size(color,1);
+    a = [];
+else
+    if nargin < 3 | isempty(n)
+        n = 10;
+    end        
+    a = 0:1/(n):1; a(1) = [];
+end
+
+if isempty(a)
+    color = color;
+else
+    p = color;
+    for i = 1:length(a)
+        color(i,:) = p + ([1 1 1] - p)*( 1 - a(i)/1); 
+    end
+end
+
+k = 100/(n);
+k = [k:k:100];
+for i = 1:numel(k)
+    edge(i) = prctile(value,k(i));
+end
+
+edge = [0,edge];
+
+for i = 1:length(edge) - 1
+    f = find(value > (edge(i)) & value <= (edge(i+1)));        
+    value_color(f,:) = repmat(color(i,:),numel(f),1);
+end
+
+f = find(mean(value,2)==0 | isnan(mean(value,2)));
+value_color(f,:) = repmat([1 1 1],numel(f),1);
+end 

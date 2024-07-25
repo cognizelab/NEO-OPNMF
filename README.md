@@ -60,9 +60,12 @@ Demonstration data.
 *   data\_alluvial.mat
 
     Demonstration data on the trend of item affiliation changes.
-*   data\_HCP\_meta2traits
+*   data\_HCP\_meta2traits.mat
 
     Demonstration data on two-dimensional projection (from a two-factor model trained on HCP).
+*   FFM-questionnaires.xlsx
+
+    Specific item information of the FFM questionnaires.
 
 ## 3.Demo
 

@@ -1,0 +1,10 @@
+cff-version: 1.0.0
+message: "To cite this toolbox in your research, please use the following reference:"
+authors:
+  - family-names: Zhuang
+    given-names: Kaixiang
+
+title: "fmatrix-OPNMF: A Toolbox for Matrix Factorization (Factor Analysis) of Behavioral Data"
+version: 1.0.0
+doi: 10.5281/zenodo.14584086
+date-released: 2025-01-01
